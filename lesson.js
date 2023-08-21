@@ -17,3 +17,13 @@ alert(" Вот теперь идите смело,пешеходам путь о
 const math= prompt("Сейчас какой год") 
 const math1= prompt("А  твой год рождения") 
 alert( math - math1 +  " " + "лет значит вам") // ответ
+
+var Number1, secondNumber;
+Number1 = +prompt('Введите число : ');
+secondNumber = parseInt(prompt('Введите второе число : '));
+if (Number1 > secondNumber) {
+    alert(Number1 + ' Больше');
+}else{
+    alert(secondNumber + ' Больше')
+}
+
